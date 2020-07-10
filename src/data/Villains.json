@@ -1,0 +1,314 @@
+[
+   {
+      "name":"Baron Blade",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":1,
+      "nemesis":"Legacy"
+   },
+   {
+      "name":"Citizen Dawn",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":3,
+      "nemesis":"Expatriette"
+   },
+   {
+      "name":"Grand Warlord Voss",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":3,
+      "nemesis":"Tempest"
+   },
+   {
+      "name":"Omnitron",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":1,
+      "nemesis":"Omnitron-X"
+   },
+   {
+      "name":"The Chairman",
+      "expansion":"Rook City",
+      "difficulty":4,
+      "nemesis":"Mr. Fixer"
+   },
+   {
+      "name":"The Matriarch",
+      "expansion":"Rook City",
+      "difficulty":4,
+      "nemesis":"Tachyon"
+   },
+   {
+      "name":"Plague Rat",
+      "expansion":"Rook City",
+      "difficulty":2,
+      "nemesis":"Chrono-Ranger"
+   },
+   {
+      "name":"Spite",
+      "expansion":"Rook City",
+      "difficulty":2,
+      "nemesis":"The Wraith"
+   },
+   {
+      "name":"Akash'bhuta",
+      "expansion":"Infernal Relics",
+      "difficulty":2,
+      "nemesis":"Argent Adept"
+   },
+   {
+      "name":"Apostate",
+      "expansion":"Infernal Relics",
+      "difficulty":2,
+      "nemesis":"Fanatic"
+   },
+   {
+      "name":"The Ennead",
+      "expansion":"Infernal Relics",
+      "difficulty":3,
+      "nemesis":"Ra"
+   },
+   {
+      "name":"GloomWeaver",
+      "expansion":"Infernal Relics",
+      "difficulty":3,
+      "nemesis":"NightMist"
+   },
+   {
+      "name":"The Dreamer",
+      "expansion":"Shattered Timelines",
+      "difficulty":3,
+      "nemesis":"The Visionary"
+   },
+   {
+      "name":"Iron Legacy",
+      "expansion":"Shattered Timelines",
+      "difficulty":4,
+      "nemesis":"Absolute Zero, Bunker, Tachyon, Tempest, Unity, and Wraith"
+   },
+   {
+      "name":"Kismet",
+      "expansion":"Shattered Timelines",
+      "difficulty":2,
+      "nemesis":"Setback"
+   },
+   {
+      "name":"La Capitan",
+      "expansion":"Shattered Timelines",
+      "difficulty":2,
+      "nemesis":"The Sentinels"
+   },
+   {
+      "name":"Deadline",
+      "expansion":"Wrath of the Cosmos",
+      "difficulty":3,
+      "nemesis":"The Naturalist"
+   },
+   {
+      "name":"Infinitor",
+      "expansion":"Wrath of the Cosmos",
+      "difficulty":2,
+      "nemesis":"Captain Cosmic"
+   },
+   {
+      "name":"Kaargra Warfang",
+      "expansion":"Wrath of the Cosmos",
+      "difficulty":3,
+      "nemesis":"Sky-Scraper"
+   },
+   {
+      "name":"Progeny",
+      "expansion":"Wrath of the Cosmos",
+      "difficulty":4,
+      "nemesis":"K.N.Y.F.E."
+   },
+   {
+      "name":"Ambuscade",
+      "expansion":"Mini Expansion",
+      "difficulty":2,
+      "nemesis":"Haka"
+   },
+   {
+      "name":"Chokepoint",
+      "expansion":"Mini Expansion",
+      "difficulty":2,
+      "nemesis":"Absolute Zero, Bunker, and Unity"
+   },
+   {
+      "name":"Miss Information",
+      "expansion":"Mini Expansion",
+      "difficulty":3,
+      "nemesis":"Parse"
+   },
+   {
+      "name":"Wager Master",
+      "expansion":"Mini Expansion",
+      "difficulty":2,
+      "nemesis":"Guise"
+   },
+   {
+      "name":"Cosmic Omnitron",
+      "expansion":"Variant",
+      "difficulty":2,
+      "nemesis":"Omnitron-X"
+   },
+   {
+      "name":"Mad Bomber Blade",
+      "expansion":"Variant",
+      "difficulty":3,
+      "nemesis":"Legacy"
+   },
+   {
+      "name":"Skinwalker Gloomweaver",
+      "expansion":"Variant",
+      "difficulty":0,
+      "nemesis":"NightMist"
+   },
+   {
+      "name":"Spite: Agent of Gloom",
+      "expansion":"Variant",
+      "difficulty":0,
+      "nemesis":"The Wraith"
+   },
+   {
+      "name":"Tormented Ally Infinitor",
+      "expansion":"Variant",
+      "difficulty":0,
+      "nemesis":"Captain Cosmic"
+   },
+   {
+      "name":"Unstable Kismet",
+      "expansion":"Variant",
+      "difficulty":0,
+      "nemesis":"Setback"
+   },
+   {
+      "name":"Anathema",
+      "expansion":"The Cauldron",
+      "difficulty":2,
+      "nemesis":"Tango One"
+   },
+   {
+      "name":"Dendron",
+      "expansion":"The Cauldron",
+      "difficulty":2,
+      "nemesis":"The Stranger"
+   },
+   {
+      "name":"Gray",
+      "expansion":"The Cauldron",
+      "difficulty":4,
+      "nemesis":"Vanish"
+   },
+   {
+      "name":"The Ram",
+      "expansion":"The Cauldron",
+      "difficulty":2,
+      "nemesis":"Quicksilver"
+   },
+   {
+      "name":"Tiamat",
+      "expansion":"The Cauldron",
+      "difficulty":3,
+      "nemesis":"Echelon, The Knight, and Necro"
+   },
+   {
+      "name":"Oriphel / Jade",
+      "expansion":"The Cauldron: Experimental",
+      "difficulty":2,
+      "nemesis":"Malichae"
+   },
+   {
+      "name":"Swarm Eater",
+      "expansion":"The Cauldron: Experimental",
+      "difficulty":4,
+      "nemesis":"Cypher"
+   },
+   {
+      "name":"Vector",
+      "expansion":"The Cauldron: Experimental",
+      "difficulty":2,
+      "nemesis":"Doc Havoc"
+   },
+   {
+      "name":"Celadroch",
+      "expansion":"The Cauldron: Stormfall",
+      "difficulty":4,
+      "nemesis":"Lady of the Wood"
+   },
+   {
+      "name":"Menagerie",
+      "expansion":"The Cauldron: Stormfall",
+      "difficulty":2,
+      "nemesis":"Starlight"
+   },
+   {
+      "name":"Phase",
+      "expansion":"The Cauldron: Stormfall",
+      "difficulty":3,
+      "nemesis":"Impact"
+   },
+   {
+      "name":"Dynamo",
+      "expansion":"The Cauldron: Adrift",
+      "difficulty":1,
+      "nemesis":"Cricket"
+   },
+   {
+      "name":"The Infernal Choir",
+      "expansion":"The Cauldron: Adrift",
+      "difficulty":4,
+      "nemesis":"Terminus"
+   },
+   {
+      "name":"The Mistress of Fate",
+      "expansion":"The Cauldron: Adrift",
+      "difficulty":2,
+      "nemesis":"Baccarat"
+   },
+   {
+      "name":"Mythos",
+      "expansion":"The Cauldron: Adrift",
+      "difficulty":3,
+      "nemesis":"Titan"
+   },
+   {
+      "name":"Outlander",
+      "expansion":"The Cauldron: Adrift",
+      "difficulty":3,
+      "nemesis":"Drift, The Knight"
+   },
+   {
+      "name":"ScreaMachine",
+      "expansion":"The Cauldron: Adrift",
+      "difficulty":3,
+      "nemesis":"Gyrisaur"
+   },
+   {
+      "name":"1929 Ram",
+      "expansion":"The Cauldron (Variant)",
+      "difficulty":3,
+      "nemesis":"Ram: The Stranger Necro Impact Baccarat; Admiral Winters: The Knight Magnificent Mara Vanish"
+   },
+   {
+      "name":"Elemental Hydra Tiamat",
+      "expansion":"The Cauldron (Variant)",
+      "difficulty":4,
+      "nemesis":"Echelon, The Knight, Necro, Malichae, The Stranger, and Lady of the Wood"
+   },
+   {
+      "name":"Evolved Anathema",
+      "expansion":"The Cauldron (Variant)",
+      "difficulty":3,
+      "nemesis":"Tango One"
+   },
+   {
+      "name":"Hivemind Swarmeater",
+      "expansion":"The Cauldron (Variant)",
+      "difficulty":2,
+      "nemesis":"Cypher"
+   },
+   {
+      "name":"Windcolor Dendron",
+      "expansion":"The Cauldron (Variant)",
+      "difficulty":3,
+      "nemesis":"The Stranger"
+   }
+]

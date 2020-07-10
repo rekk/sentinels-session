@@ -1,0 +1,188 @@
+[
+   {
+      "name":"Absolute Zero",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":3,
+      "nemesis":"Chokepoint, Iron Legacy, and Proletariat"
+   },
+   {
+      "name":"Bunker",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":2,
+      "nemesis":"Chokepoint, Iron Legacy, and Fright Train"
+   },
+   {
+      "name":"Fanatic",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":2,
+      "nemesis":"Apostate"
+   },
+   {
+      "name":"Haka",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":1,
+      "nemesis":"Ambuscade (Solo)"
+   },
+   {
+      "name":"Legacy",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":1,
+      "nemesis":"Baron Blade, Miss Information (Team)"
+   },
+   {
+      "name":"Ra",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":1,
+      "nemesis":"Ennead"
+   },
+   {
+      "name":"Tachyon",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":2,
+      "nemesis":"Matriarch, Iron Legacy, Friction, Miss Information (Team)"
+   },
+   {
+      "name":"Tempest",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":1,
+      "nemesis":"Grand Warlord Voss, Iron Legacy"
+   },
+   {
+      "name":"Visionary",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":2,
+      "nemesis":"Dreamer, Citizens Hammer and Anvil"
+   },
+   {
+      "name":"Wraith",
+      "expansion":"Sentinels of the Multiverse",
+      "difficulty":1,
+      "nemesis":"Spite, Iron Legacy, Ermine, Miss Information (Team)"
+   },
+   {
+      "name":"Expatriette",
+      "expansion":"Rook City",
+      "difficulty":2,
+      "nemesis":"Citizen Dawn"
+   },
+   {
+      "name":"Mr Fixer",
+      "expansion":"Rook City",
+      "difficulty":2,
+      "nemesis":"Chairman, Operative"
+   },
+   {
+      "name":"Argent Adept",
+      "expansion":"Infernal Relics",
+      "difficulty":3,
+      "nemesis":"Akash'Bhuta"
+   },
+   {
+      "name":"NightMist",
+      "expansion":"Infernal Relics",
+      "difficulty":3,
+      "nemesis":"Gloomweaver, Bugbear"
+   },
+   {
+      "name":"Chrono-Ranger",
+      "expansion":"Shattered Timelines",
+      "difficulty":2,
+      "nemesis":"Plague Rat (Solo), La Capitan (Team)"
+   },
+   {
+      "name":"Omnitron-X",
+      "expansion":"Shattered Timelines",
+      "difficulty":2,
+      "nemesis":"Omnitron"
+   },
+   {
+      "name":"Captain Cosmic",
+      "expansion":"Wrath of the Cosmos",
+      "difficulty":2,
+      "nemesis":"Infinitor"
+   },
+   {
+      "name":"SkyScraper",
+      "expansion":"Wrath of the Cosmos",
+      "difficulty":3,
+      "nemesis":"Kaargra Warfang"
+   },
+   {
+      "name":"KNYFE",
+      "expansion":"Vengeance",
+      "difficulty":1,
+      "nemesis":"Progeny, Sergeant Steele"
+   },
+   {
+      "name":"Naturalist",
+      "expansion":"Vengeance",
+      "difficulty":2,
+      "nemesis":"Deadline, Ambuscade (Team)"
+   },
+   {
+      "name":"Parse",
+      "expansion":"Vengeance",
+      "difficulty":2,
+      "nemesis":"Miss Information (Solo)"
+   },
+   {
+      "name":"Setback",
+      "expansion":"Vengeance",
+      "difficulty":3,
+      "nemesis":"Kismet, Plague Rat (Team)"
+   },
+   {
+      "name":"Akash'Thriya",
+      "expansion":"OblivAeon",
+      "difficulty":0,
+      "nemesis":"OblivAeon"
+   },
+   {
+      "name":"Harpy",
+      "expansion":"OblivAeon",
+      "difficulty":0,
+      "nemesis":"OblivAeon"
+   },
+   {
+      "name":"La Comodora",
+      "expansion":"OblivAeon",
+      "difficulty":0,
+      "nemesis":"OblivAeon"
+   },
+   {
+      "name":"Luminary",
+      "expansion":"OblivAeon",
+      "difficulty":0,
+      "nemesis":"OblivAeon"
+   },
+   {
+      "name":"Benchmark",
+      "expansion":"Mini Expansion",
+      "difficulty":0,
+      "nemesis":"OblivAeon"
+   },
+   {
+      "name":"Guise",
+      "expansion":"Mini Expansion",
+      "difficulty":2,
+      "nemesis":"Wager Master"
+   },
+   {
+      "name":"Scholar",
+      "expansion":"Mini Expansion",
+      "difficulty":3,
+      "nemesis":"Biomancer"
+   },
+   {
+      "name":"Stuntman",
+      "expansion":"Mini Expansion",
+      "difficulty":0,
+      "nemesis":"OblivAeon"
+   },
+   {
+      "name":"Unity",
+      "expansion":"Mini Expansion",
+      "difficulty":2,
+      "nemesis":"Iron Legacy, Chokepoint"
+   }
+]
