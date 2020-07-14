@@ -1,62 +1,68 @@
 import React from 'react';
 import { useState } from 'react';
 import Header from './Header';
-import HeroFile from './data/Heroes.json';
 import './App.css';
 
 function App() {
-  const [hero, setHero] = useState({"name": ""})
-  const heroList: any = HeroFile.map(h => 
-            { return {
-              "name":       h.name,
-              "difficulty": h.difficulty,
-              "nemesis":    h.nemesis}
-            })
-  const onHeroGen = () => {
-    const h = drawCard(heroList)
-    setHero(h)
+  const [playerAmount, setPlayerAmount] = useState(4)
+
+  function handlePlayerAmount(e: any) {
+    const newAmount = e.target.value
+    setPlayerAmount(newAmount)
   }
   return (
     <>
       <Header />
-      <HeroButton callback={onHeroGen}/>
-      <Hero hero={hero} />
+      <div className="settings">
+        <input type="range" min="1" max="8" value={playerAmount} onChange={handlePlayerAmount}/>
+      </div>
+      <CardContainer cardAmount={playerAmount}/>
     </>
   );
 }
 
-function Hero({hero}: any) {
+type CardContainerProps = {
+  cardAmount: number
+}
+
+function CardContainer({cardAmount}: CardContainerProps) {
+  var nums = listOfRandInts(cardAmount, 0, 25)
   return (
-  <div className="hero">
-     <div className="heroName">{hero.name}</div>
-     <img src={`${process.env.PUBLIC_URL}/${upper(hero.name)}.PNG`} alt=""/>
+  <div className="cardContainer">
+    { arr(cardAmount).map((n: any, i: any) => <Card key={i}/>) }
   </div>
   )
 }
 
-function HeroButton({callback}: any) {
-  return (
-    <div>
-      <input onClick={callback} type="button" className="generatorButton" value="Random hero"/>
-    </div>
-  ) 
+type CardProps = {
+  
 }
 
-const drawCard = (cardList: any) => {
-  const i = randInt(0, cardList.length - 1)
-  console.log(i)
-  const card = cardList[i]
-  console.log(card)
-  return card
+function Card() {
+  return (
+    <div className="card">
+      <div>Card</div>
+    </div>
+  )
+}
+
+const listOfRandInts = (length: number, min: number, max: number) => {
+  var result: number[] = []
+  while (result.length < length) {
+    const tmp = randInt(min, max)
+    if (!result.includes(tmp))
+      result.push(tmp)
+  }
+  return result
 }
 
 const randInt = (min: number, max: number) => {
   return Math.round(Math.random() * (max - min) + min)
 }
 
-const upper = (s: string) => {
-  return s.replace(" ", "-").toUpperCase()
+// Create array of length n
+const arr = (n: number) => {
+  return Array(parseInt(n + '')).fill(0)
 }
-
 
 export default App;

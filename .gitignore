@@ -3,4 +3,4 @@ node_modules
 **/*.scss
 **/*.map
 /old
-.gitignore
+build
