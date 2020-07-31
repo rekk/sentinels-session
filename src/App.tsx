@@ -1,51 +1,136 @@
 import React from 'react';
 import { useState } from 'react';
-import Header from './Header';
-import './App.css';
+import './App.scss';
+import HeroFile     from './data/heroes.json';
+import VillainFile  from './data/villain_list.json';
+import EnvFile      from './data/env_list.json';
+import CardImg      from './data/cards/absolute_zero.png';
 
 function App() {
   const [playerAmount, setPlayerAmount] = useState(4)
+  const villainAmount = 1
+  const envAmount = 1
+  const heroes = HeroFile.cards
+  const villains = VillainFile.cards
+  const envs = EnvFile.cards
 
-  function handlePlayerAmount(e: any) {
-    const newAmount = e.target.value
-    setPlayerAmount(newAmount)
+  function handlePlayerAmount(e: React.MouseEvent<HTMLButtonElement>) { 
+    const newAmount = e.currentTarget.innerHTML
+    setPlayerAmount(parseInt(newAmount))
   }
   return (
-    <>
-      <Header />
-      <div className="settings">
-        <input type="range" min="1" max="8" value={playerAmount} onChange={handlePlayerAmount}/>
+    <div id="app">
+      <PageTitle text="Sentinels Session Creator" />
+      <div id="content">
+        <div id="cards">
+          <Title text="Cards" />
+          <SubTitle text="Heroes" />
+          <CardContainer id="heroCardContainer"    amount={playerAmount}   cardList={heroes}/>
+          <Title text="Cards" />
+          <SubTitle text="Villain" />
+          <CardContainer id="villainCardContainer" amount={villainAmount}  cardList={villains}/>
+          <Title text="Cards" />
+          <SubTitle text="Environment" />
+          <CardContainer id="envCardContainer"     amount={envAmount}      cardList={envs}/>
+        </div>
+        <div id="settings">
+          <Title    text="Settings" />
+          <SubTitle text="Player amount" />
+          <div id="amount">
+            <PlayerAmountButton val="2" handler={handlePlayerAmount} />
+            <PlayerAmountButton val="3" handler={handlePlayerAmount} />
+            <PlayerAmountButton val="4" handler={handlePlayerAmount} />
+          </div>
+        </div>
       </div>
-      <CardContainer cardAmount={playerAmount}/>
-    </>
+    </div>
   );
 }
 
-type CardContainerProps = {
-  cardAmount: number
+// Components
+type PageTitle = {
+  text: string;
 }
 
-function CardContainer({cardAmount}: CardContainerProps) {
-  var nums = listOfRandInts(cardAmount, 0, 25)
+function PageTitle({text}: PageTitle) {
   return (
-  <div className="cardContainer">
-    { arr(cardAmount).map((n: any, i: any) => <Card key={i}/>) }
-  </div>
+    <a href="/">
+      <div className="pageTitle">
+        {text}
+      </div>
+    </a>
   )
 }
 
-type CardProps = {
-  
+type Title = {
+  text: string;
 }
 
-function Card() {
+function Title({text}: Title) {
   return (
-    <div className="card">
-      <div>Card</div>
+    <div className="title">
+      {text}
     </div>
   )
 }
 
+type SubTitle = {
+  text: string;
+}
+
+function SubTitle({text}: SubTitle) {
+  return (
+    <div className="subtitle">
+      {text}
+    </div>
+  )
+}
+
+type PlayerAmountButton = {
+  val: string,
+  handler(e: React.MouseEvent<HTMLButtonElement>): void;
+}
+
+function PlayerAmountButton({val, handler}: PlayerAmountButton) {
+  return (
+  <button className="button" onClick={handler}>
+    {val}
+  </button>
+  )
+}
+
+type CardContainer = {
+  amount: number,
+  id: string,
+  cardList: Card[]
+}
+
+function CardContainer({id, amount, cardList}: CardContainer) {
+  const nums = listOfRandInts(amount, 0, cardList.length - 1)
+  return (
+  <div className="cardContainer">
+    <div id={id} className="cardContainerGrid">
+      { nums.map((n: number) => <Card key={n} name={cardList[n].name} img={CardImg} />) }
+    </div>
+  </div>
+  )
+}
+
+type Card = {
+  name: string,
+  img: string
+}
+
+function Card({name, img}: Card) {
+  return (
+    <div className="card">
+      <img src={img} alt="cardImage" />
+      <div className="cardName">{name}</div>
+    </div>
+  )
+}
+
+// Helper functions
 const listOfRandInts = (length: number, min: number, max: number) => {
   var result: number[] = []
   while (result.length < length) {
@@ -61,8 +146,8 @@ const randInt = (min: number, max: number) => {
 }
 
 // Create array of length n
-const arr = (n: number) => {
-  return Array(parseInt(n + '')).fill(0)
-}
+// const arr = (n: number) => {
+//   return Array(parseInt(n + '')).fill(0)
+// }
 
 export default App;
