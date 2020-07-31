@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/sentinels-session/static/css/main.ba81da95.chunk.css",
-    "main.js": "/sentinels-session/static/js/main.6d46fa15.chunk.js",
-    "main.js.map": "/sentinels-session/static/js/main.6d46fa15.chunk.js.map",
+    "main.css": "/sentinels-session/static/css/main.1a42491e.chunk.css",
+    "main.js": "/sentinels-session/static/js/main.e8114f39.chunk.js",
+    "main.js.map": "/sentinels-session/static/js/main.e8114f39.chunk.js.map",
     "runtime-main.js": "/sentinels-session/static/js/runtime-main.2d57b853.js",
     "runtime-main.js.map": "/sentinels-session/static/js/runtime-main.2d57b853.js.map",
-    "static/js/2.62920353.chunk.js": "/sentinels-session/static/js/2.62920353.chunk.js",
-    "static/js/2.62920353.chunk.js.map": "/sentinels-session/static/js/2.62920353.chunk.js.map",
+    "static/js/2.20ffa4d7.chunk.js": "/sentinels-session/static/js/2.20ffa4d7.chunk.js",
+    "static/js/2.20ffa4d7.chunk.js.map": "/sentinels-session/static/js/2.20ffa4d7.chunk.js.map",
     "index.html": "/sentinels-session/index.html",
-    "precache-manifest.af24d9a875286f6da1e2ac689dcc73de.js": "/sentinels-session/precache-manifest.af24d9a875286f6da1e2ac689dcc73de.js",
+    "precache-manifest.3c804a1b0fac7e6bc4267a0edcf29f5d.js": "/sentinels-session/precache-manifest.3c804a1b0fac7e6bc4267a0edcf29f5d.js",
     "service-worker.js": "/sentinels-session/service-worker.js",
-    "static/css/main.ba81da95.chunk.css.map": "/sentinels-session/static/css/main.ba81da95.chunk.css.map",
-    "static/js/2.62920353.chunk.js.LICENSE.txt": "/sentinels-session/static/js/2.62920353.chunk.js.LICENSE.txt"
+    "static/css/main.1a42491e.chunk.css.map": "/sentinels-session/static/css/main.1a42491e.chunk.css.map",
+    "static/js/2.20ffa4d7.chunk.js.LICENSE.txt": "/sentinels-session/static/js/2.20ffa4d7.chunk.js.LICENSE.txt",
+    "static/media/absolute_zero.png": "/sentinels-session/static/media/absolute_zero.5f48105d.png",
+    "static/media/App.scss": "/sentinels-session/static/media/detectivesinc.d6defadd.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.2d57b853.js",
-    "static/js/2.62920353.chunk.js",
-    "static/css/main.ba81da95.chunk.css",
-    "static/js/main.6d46fa15.chunk.js"
+    "static/js/2.20ffa4d7.chunk.js",
+    "static/css/main.1a42491e.chunk.css",
+    "static/js/main.e8114f39.chunk.js"
   ]
 }
