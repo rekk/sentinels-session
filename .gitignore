@@ -1,6 +1,6 @@
 node_modules
 **/*.swp
-**/*.scss
 **/*.map
 /old
 build
+.DS_Store

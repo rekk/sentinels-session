@@ -2,8 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import './App.scss';
 import HeroFile     from './data/heroes.json';
-import VillainFile  from './data/villain_list.json';
-import EnvFile      from './data/env_list.json';
+import VillainFile  from './data/heroes.json';
+import EnvFile      from './data/heroes.json';
 import CardImg      from './data/cards/absolute_zero.png';
 
 function App() {
