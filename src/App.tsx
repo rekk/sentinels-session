@@ -1,19 +1,20 @@
 import React from 'react';
 import { useState } from 'react';
 import './App.scss';
-import HeroFile     from './data/heroes.json';
-import VillainFile  from './data/heroes.json';
-import EnvFile      from './data/heroes.json';
-import CardImg      from './data/cards/absolute_zero.png';
+
+import CardFile     from './data/db/cards.json';
 
 function App() {
   const [playerAmount, setPlayerAmount] = useState(4)
   const villainAmount = 1
   const envAmount = 1
-  const heroes = HeroFile.cards
-  const villains = VillainFile.cards
-  const envs = EnvFile.cards
 
+  const cards = CardFile
+  const heroes = cards.filter((card: Card) => card.group == "hero")
+  const villains = cards.filter((card: Card) => card.group == "villain")
+  const envs = cards.filter((card: Card) => card.group == "env")
+
+  console.log(CardFile)
   function handlePlayerAmount(e: React.MouseEvent<HTMLButtonElement>) { 
     const newAmount = e.currentTarget.innerHTML
     setPlayerAmount(parseInt(newAmount))
@@ -110,22 +111,24 @@ function CardContainer({id, amount, cardList}: CardContainer) {
   return (
   <div className="cardContainer">
     <div id={id} className="cardContainerGrid">
-      { nums.map((n: number) => <Card key={n} name={cardList[n].name} img={CardImg} />) }
+      { nums.map((n: number) => <Card key={n} group={cardList[n].group} name={cardList[n].name} hp={cardList[n].hp} img={process.env.PUBLIC_URL + "/" + cardList[n].img} />) }
     </div>
   </div>
   )
 }
 
 type Card = {
+  group: string,
   name: string,
+  hp: number,
   img: string
 }
 
-function Card({name, img}: Card) {
+function Card({group, name, hp, img}: Card) {
   return (
     <div className="card">
-      <img src={img} alt="cardImage" />
       <div className="cardName">{name}</div>
+      <img src={img} alt="cardImage" />
     </div>
   )
 }

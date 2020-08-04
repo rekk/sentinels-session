@@ -1,0 +1,62 @@
+[
+    {
+        "group": "hero",
+        "hp": 29,
+        "img": "images/absolute_zero.png",
+        "name": "Absolute Zero"
+    },
+    {
+        "group": "hero",
+        "hp": 24,
+        "img": "images/the_argent_adept.png",
+        "name": "The Argent Adept"
+    },
+    {
+        "group": "hero",
+        "hp": 28,
+        "img": "images/bunker.png",
+        "name": "Bunker"
+    },
+    {
+        "group": "hero",
+        "hp": 27,
+        "img": "images/captain_cosmic.png",
+        "name": "Captain Cosmic"
+    },
+    {
+        "group": "hero",
+        "hp": 28,
+        "img": "images/chrono_ranger.png",
+        "name": "Chrono-Ranger"
+    },
+    {
+        "group": "hero",
+        "hp": 29,
+        "img": "images/expatriette.png",
+        "name": "Expatriette"
+    },
+    {
+        "group": "villain",
+        "hp": 40,
+        "img": "images/baron_blade.png",
+        "name": "Baron Blade"
+    },
+    {
+        "group": "villain",
+        "hp": 6,
+        "img": "images/the_dreamer.png",
+        "name": "The Dreamer"
+    },
+    {
+        "group": "env",
+        "hp": 0,
+        "img": "images/realm_of_discord.png",
+        "name": "Realm Of Discord"
+    },
+    {
+        "group": "env",
+        "hp": 0,
+        "img": "images/ruins_of_atlantis.png",
+        "name": "Ruins Of Atlantis"
+    }
+]
