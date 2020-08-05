@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sentinels-session/static/css/main.ce4cdee1.chunk.css",
-    "main.js": "/sentinels-session/static/js/main.6fd8c1a4.chunk.js",
-    "main.js.map": "/sentinels-session/static/js/main.6fd8c1a4.chunk.js.map",
+    "main.css": "/sentinels-session/static/css/main.b656e976.chunk.css",
+    "main.js": "/sentinels-session/static/js/main.21c5546e.chunk.js",
+    "main.js.map": "/sentinels-session/static/js/main.21c5546e.chunk.js.map",
     "runtime-main.js": "/sentinels-session/static/js/runtime-main.2d57b853.js",
     "runtime-main.js.map": "/sentinels-session/static/js/runtime-main.2d57b853.js.map",
     "static/js/2.92416b53.chunk.js": "/sentinels-session/static/js/2.92416b53.chunk.js",
     "static/js/2.92416b53.chunk.js.map": "/sentinels-session/static/js/2.92416b53.chunk.js.map",
     "index.html": "/sentinels-session/index.html",
-    "precache-manifest.39e4dbd5e389f3f82e1986e7ba2a6733.js": "/sentinels-session/precache-manifest.39e4dbd5e389f3f82e1986e7ba2a6733.js",
+    "precache-manifest.d408cc74720e128178ce7858eebea090.js": "/sentinels-session/precache-manifest.d408cc74720e128178ce7858eebea090.js",
     "service-worker.js": "/sentinels-session/service-worker.js",
-    "static/css/main.ce4cdee1.chunk.css.map": "/sentinels-session/static/css/main.ce4cdee1.chunk.css.map",
+    "static/css/main.b656e976.chunk.css.map": "/sentinels-session/static/css/main.b656e976.chunk.css.map",
     "static/js/2.92416b53.chunk.js.LICENSE.txt": "/sentinels-session/static/js/2.92416b53.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/sentinels-session/static/media/detectivesinc.d6defadd.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.2d57b853.js",
     "static/js/2.92416b53.chunk.js",
-    "static/css/main.ce4cdee1.chunk.css",
-    "static/js/main.6fd8c1a4.chunk.js"
+    "static/css/main.b656e976.chunk.css",
+    "static/js/main.21c5546e.chunk.js"
   ]
 }
