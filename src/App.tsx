@@ -10,9 +10,9 @@ function App() {
   const envAmount = 1
 
   const cards = CardFile
-  const heroes = cards.filter((card: Card) => card.group == "hero")
-  const villains = cards.filter((card: Card) => card.group == "villain")
-  const envs = cards.filter((card: Card) => card.group == "env")
+  const heroes = cards.filter((card: Card) => card.group === "hero")
+  const villains = cards.filter((card: Card) => card.group === "villain")
+  const envs = cards.filter((card: Card) => card.group === "env")
 
   console.log(CardFile)
   function handlePlayerAmount(e: React.MouseEvent<HTMLButtonElement>) { 
